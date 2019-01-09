@@ -11,16 +11,16 @@ describe('Mercury Tours demo site', function () {
 	});
 
 	it('should have footer with © 2005, Mercury Interactive (v. 011003-1.01-058)', function () {
-		expect(homePage.getText()).toEqual("© 2005, Mercury Interactive (v. 011003-1.01-058)");
+		expect(homePage.checkFooterText()).toEqual("© 2005, Mercury Interactive (v. 011003-1.01-058)");
 	});
 
 	it('should have visable Mercury Tours logo after entering site' , function () {
-		expect(homePage.visableLogo()).toBe(true);
+		expect(homePage.isVisableLogo()).toBe(true);
 	});
 
 	it('should have menu items, top and left', function () {
-		expect(homePage.getLeftMenuAtIdx(2).getText()).toBe("Hotels");
-		expect(homePage.getTopMenuAtIdx(1).getText()).toBe("REGISTER");
+		expect(homePage.getLeftMenuItems());
+		expect(homePage.getTopMenuItems());
 	});
 
 	it('should have check special offers', function () {
