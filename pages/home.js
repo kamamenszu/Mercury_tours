@@ -27,7 +27,7 @@ var HomePage = function() {
 
   this.getLeftMenuItems = function(){
     return this.leftMenuItems.map(function(elm, index) {
-      return {
+      return { 
         index: index,
         name: elm.getText()
       };
@@ -40,6 +40,7 @@ var HomePage = function() {
         index: index,
         name: elm.getText()
       };
+
     });
   };
 

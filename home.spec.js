@@ -1,4 +1,6 @@
 var homePage = require('./pages/home');
+var leftMenu = require('./pages/leftMenu.json');
+var topMenu = require('./pages/topMenu.json');
 
 describe('Mercury Tours demo site', function () {
 
@@ -19,8 +21,8 @@ describe('Mercury Tours demo site', function () {
 	});
 
 	it('should have menu items, top and left', function () {
-		expect(homePage.getLeftMenuItems());
-		expect(homePage.getTopMenuItems());
+		expect(homePage.getLeftMenuItems()).toEqual(leftMenu);
+		expect(homePage.getTopMenuItems()).toEqual(topMenu);
 	});
 
 	it('should have check special offers', function () {

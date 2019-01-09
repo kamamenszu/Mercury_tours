@@ -1,0 +1,30 @@
+ [
+        {
+            "index": 0,
+            "name": "Home"
+        },
+        {
+            "index": 1,
+            "name": "Flights"
+        },
+        {
+            "index": 2,
+            "name": "Hotels"
+        },
+        {
+            "index": 3,
+            "name": "Car Rentals"
+        },
+        {
+            "index": 4,
+            "name": "Cruises"
+        },
+        {
+            "index": 5,
+            "name": "Destinations"
+        },
+        {
+            "index": 6,
+            "name": "Vacations"
+        }
+    ]

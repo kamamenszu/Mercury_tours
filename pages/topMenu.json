@@ -1,0 +1,18 @@
+[
+    {
+        "index": 0,
+        "name": "SIGN-ON"
+    },
+    {
+        "index": 1,
+        "name": "REGISTER"
+    },
+    {
+        "index": 2,
+        "name": "SUPPORT"
+    },
+    {
+        "index": 3,
+        "name": "CONTACT"
+    }
+]
